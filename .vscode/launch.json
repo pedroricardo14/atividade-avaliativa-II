@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run grafo2 (build+run)",
+      "type": "cppdbg",
+      "request": "launch",
+  "program": "${workspaceFolder}\\output\\grafo2.exe",
+  "args": ["${workspaceFolder}\\grafo.txt"],
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "build grafo2",
+      "externalConsole": false,
+      "internalConsoleOptions": "neverOpen"
+    }
+  ]
+}

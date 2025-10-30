@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build grafo2",
+      "type": "shell",
+      "command": "\"C:\\Program Files (x86)\\Falcon\\MinGW\\bin\\g++.EXE\" -Wall -Wextra -g3 \"${workspaceFolder}\\grafo2.cpp\" -o \"${workspaceFolder}\\output\\grafo2.exe\"",
+      "options": {
+        "shell": {
+          "executable": "cmd.exe",
+          "args": [
+            "/C"
+          ]
+        }
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}
