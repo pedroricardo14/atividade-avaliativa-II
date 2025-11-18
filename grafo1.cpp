@@ -16,7 +16,7 @@ public:
     }
 
     // Lê grafo de arquivo .txt
-    void readFromFile(const string& filename) {
+    void readFromFile(const string& filename = "grafo.txt") {
     ifstream file(filename.c_str());
         if (!file) {
             cout << "Erro ao abrir arquivo " << filename << endl;
